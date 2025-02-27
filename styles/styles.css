@@ -2,9 +2,10 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
-    padding: 20px;
+    padding: 1em;
 }
 
+/* Header */
 h1 {
     text-align: center;
     color: #333;
@@ -12,6 +13,7 @@ h1 {
     font-size: 250%;
 }
 
+/* Table */
 table {
     border-collapse: collapse;
 }
@@ -19,12 +21,12 @@ table {
 th, td {
     padding: 12px 10px;
     text-align: center;
-    border: 2px solid #4CAF50;
+    border: 0.15em solid #4CAF50;
 }
 
 th {
     background-color: #4CAF50;
-    border: 2px solid #ccc;
+    border: 0.15em solid #ccc;
     color: white;
 }
 
@@ -33,5 +35,6 @@ tr:nth-child(even) {
 }
 
 tr:hover {
+    cursor: pointer;
     background-color: #9bddb1;
 }
